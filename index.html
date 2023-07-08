@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="script.js"></script>
+	<title>Agenda de Tarefas</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1>Minha agenda de tarefas</h1>
+		<img src="logo.png">
+	</header>
+
+	<section>
+		<input type="text" id="work" required placeholder="Insira o nome da tarefa.">
+		<button type="submit" id="enviar">Cadastrar</button>
+	</section>
+
+	<section class="list-tarefas">
+		<div>
+			<h2>Tarefas cadastradas</h2>
+		</div>
+		<div>
+			<ul>
+				<li class="list-none"></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer>&copy Todos os direitos reservados</footer>
+</body>
+
+</html>
